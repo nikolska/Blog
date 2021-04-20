@@ -10,7 +10,7 @@ class Article(models.Model):
 		return self.title
 
 	class Meta:
-		ordering = ['title']
+		ordering = ['-pub_date']
 
 
 class Comment(models.Model):
