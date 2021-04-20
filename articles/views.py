@@ -14,3 +14,4 @@ class ArticleCreateView(CreateView):
 	model = Article
 	form_class = ArticleForm
 	success_url = reverse_lazy('articles:articles')
+ 
